@@ -1,11 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sarala:wght@400;700&display=swap');
 
 /* Set custom variables here */
+:root {
+  --btn-color: #094a09;
+  --primary: #094a09;
+  
+}
 
+.header {
+  background-color: var(--primary);
+}
+.btn-primary {
+  background-color: var(--btn-color);
+  border-color: var(--btn-color);
+}
 
+.hero-content {
+  top: 10%;
+}
 
+#howitworks {
+  top: 20%;
+}
 
+.section-title {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
 
+.section-description {
+  margin-top: 20px;
+}
 .navbar-brand {
   color: #F6F3ED;
 }
