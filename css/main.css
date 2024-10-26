@@ -2,9 +2,24 @@
 
 /* Set custom variables here */
 :root {
-  --btn-color: #094a09;
-  --primary: #094a09;
+  --btn-color: #2E483A;
+  --primary: #2E483A;
+  --background: #f6f3ed;
   
+}
+.daily-dish {
+  overflow: auto;
+}
+.navbar {
+  background-color: var(--primary);
+}
+
+.nav-logo {
+padding-left: 20px;
+}
+
+.nav-item {
+  padding-right: 20px;
 }
 
 .header {
@@ -30,7 +45,70 @@
 
 .section-description {
   margin-top: 20px;
+  margin-top: 20px;
 }
+.btn-primary {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+hr {
+  color: var(--primary);
+  height: 3px;
+}
+
+#testimonials {
+  background-color: var(--primary);
+  color: white;
+}
+
+#cta {
+  height: 50vh;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.cta-image {
+  position: relative;
+  opacity: 0.7;
+}
+
+.cta-image-overlay {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+figure {
+  text-align: centers;
+}
+
+.testimonial-item {
+  text-align: center;
+}
+
+.testimonial-item img {
+  margin: 0 auto;
+  display: block;
+}
+
+.testimonial-item blockquote {
+  margin-top: 15px;
+}
+
+.testimonial-item figcaption {
+  margin-top: 10px;
+}
+
+footer {
+  background-color: var(--primary);
+  margin-bottom: 0 auto;
+}
+
+
+
+
 .navbar-brand {
   color: #F6F3ED;
 }
