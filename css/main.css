@@ -3,13 +3,20 @@
 /* Set custom variables here */
 :root {
   --btn-color: #2E483A;
+  --btn-hover-color:#416E59;
   --primary: #2E483A;
-  --background: #f6f3ed;
-  
+  --body-background: #f6f3ed;
+  --light-color: #f6f3ed;
 }
-.daily-dish {
-  overflow: auto;
+#how-it-works #smarter-way-to-eat-healthy #q-and-a {
+  background-color: var(--body-background) !important;
 }
+.btn-primary:hover {
+  background-color: var(--btn-hover-color) !important;
+  border-style: none;
+}
+
+
 .navbar {
   background-color: var(--primary);
 }
@@ -57,10 +64,15 @@ hr {
   height: 3px;
 }
 
-#testimonials {
+#testimonial {
   background-color: var(--primary);
-  color: white;
+  color: var(--light-color)
 }
+
+
+
+
+
 
 #cta {
   height: 50vh;
@@ -76,8 +88,35 @@ hr {
 }
 
 .cta-image-overlay {
-  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+
 }
+
+.navbar-toggler {
+  color: var(--light-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 figure {
@@ -104,6 +143,7 @@ figure {
 footer {
   background-color: var(--primary);
   margin-bottom: 0 auto;
+  color: var(--light-color);
 }
 
 
@@ -123,7 +163,6 @@ h1, h2, h3 {
 
 #hero {
   height: 800px;
-  background-color: #E4E6DB;
   background-image: url(../images/hero-bg-img.png);
   background-repeat: no-repeat;
   background-position: center;
